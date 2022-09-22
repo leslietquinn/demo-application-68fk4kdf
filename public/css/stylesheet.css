@@ -1,0 +1,85 @@
+
+	body
+	{
+		font-family: "Roboto";
+	}
+
+	h1, 
+	h2, 
+	h3, 
+	h4, 
+	h5, 
+	h6,
+	p
+	{
+		font-family: "Roboto";
+		margin: 0.25em 0;
+		padding: 0;
+	}
+
+	h1.ellipsis,
+	h2.ellipsis,
+	h3.ellipsis,
+	h4.ellipsis
+	{
+		max-width: 100%;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+
+	h1
+	{
+		font-family: "Roboto";
+		font-size: x-large;
+	}
+
+	h2
+	{
+		font-family: "Roboto";
+		font-size: large;
+	}
+
+	h3
+	{
+		font-family: "Roboto";
+		font-size: medium;
+	}
+
+	h4
+	{
+		font-family: "Roboto";
+		font-size: small;
+	}
+
+	h5,
+	h6,
+	p
+	{
+		font-family: "Roboto";
+		font-size: x-small;
+	}
+	
+	a,
+	a:hover
+	{
+		color: #000;
+		text-decoration: none;
+		font-family: "Roboto";
+	}
+
+	div#popup
+	{	
+		color: #fff;
+		text-align: center;
+		width: 50%;
+
+		font-size: large;
+		margin:0.50em auto;
+		padding: 0.50em;
+	}
+	
+	/**
+	 * @note	do not give a hidden DIV a height of 0 in Edge, it has no background once
+	 *			shown, even when height given in CSS
+	 */
